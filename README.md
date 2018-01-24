@@ -10,3 +10,6 @@ On my Omega2+ the compile took only a few seconds. Compile with:
 
 ## ADC121C_MQ5
 Version of [this](https://github.com/ControlEverythingCommunity/CE_PYTHON_LIB/blob/master/ADC121C_MQ5.py) code that has been updated to work on Onion Omega. Code executes OK, but readings from the sensor do not change when propane is introduced to the sensor.
+
+## PECMAC
+Version modified to work on the Onion Omega. You will need to [load some extra kernel modules](https://community.onion.io/topic/2312/i2c-detect-slave-method) to make this work properly. I've tested this with the 70A, 3 channel model.
